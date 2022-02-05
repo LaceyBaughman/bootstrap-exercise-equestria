@@ -1,0 +1,34 @@
+.navbar-bg {
+  background-color: bisque;
+  width: 40px;
+}
+
+.banner-img {
+  min-height: 50vh;
+  background-image: url('/assets/images/Mylittlepony.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-txt
+
+.txt-bg {
+  width: 20vh;
+  background-color: aquamarine;
+}
+
+.ph-img {
+  background-color: aquamarine;
+  width: 20vw;
+  height: 30vw;
+}
+
+.float-right {
+  justify-content: flex-end;
+}
+
+.float-card {
+  background-color: var(--ocean);
+  box-shadow: 0px 5px 0px #4a7d91;
+  transform: translateY(50%) translateX(50%);
+}
