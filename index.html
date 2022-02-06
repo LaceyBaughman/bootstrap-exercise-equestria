@@ -16,9 +16,14 @@
 
   <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
 
-  <!-- NOTE google font, font link (unique for each font, don't copy mine) -->
-  <link
-    href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Marck+Script&family=Pacifico&family=Permanent+Marker&family=Ubuntu+Mono:wght@400;700&family=Yellowtail&display=swap"
+  <!-- NOTE google font) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid&family=Pragati+Narrow:wght@700&display=swap"
     rel="stylesheet">
 
   <!-- NOTE my style sheet -->
@@ -53,11 +58,13 @@
 
     <div class="container-fluid">
       <div class="row">
-        <nav class="navbar navbar-bg">
-          <div class="container">
-            <a class="navbar-brand" href="#">
-              <i class="mdi mdi-unicorn"></i>
+        <nav class="navbar navbar-expand-lg fixed-top main-bg-color">
+          <div class="container-fluid text-left">
+            <a href="#">
+              <img aria-hidden="true" class="nav-img"
+                src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4867bb5d-e152-4994-ba6a-6510e4561d8a/dc8vbwz-bc51db3c-30c1-42a6-a802-ed860ad094d8.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQ4NjdiYjVkLWUxNTItNDk5NC1iYTZhLTY1MTBlNDU2MWQ4YVwvZGM4dmJ3ei1iYzUxZGIzYy0zMGMxLTQyYTYtYTgwMi1lZDg2MGFkMDk0ZDgucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Ssa6gtS2nf_u3NuDE_C3PGhZnJbpLPsiE1iZ8kNj1Y8">
             </a>
+            <h2>Twilight's School of Friendship</h2>
           </div>
         </nav>
       </div>
@@ -65,57 +72,124 @@
 
   </header>
 
+
+
+  <!--Banner-->
   <main>
 
-    <!--Banner-->
+    <div class="container-fluid banner">
+      <div class="row justify-content-center mt-5 g-5">
+        <div class="col-4  mt-4">
+          <p class="m-3 subtle-title">Delivered by Dragon</p>
 
-    <div class="container-fluid banner-img">
-      <div class="row justify-content-center">
-        <div class="col-3 p-3">Form here.</div>
-        <div class="col-9">Text box here.</div>
-      </div>
-    </div>
+          <!--Form-->
 
-    <!-- Text Block -->
-
-    <div class="container-fluid">
-      <div class="row txt-br justify-content-end">
-        <div class="col-4 text-left">
-          Text Block Goes Here.
-        </div>
-
-        <!--Floating Card List-->
-        <div class="col-8">
-          <div class="float-card card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-1">
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item"><i class="mdi mdi-ufo"></i></li>
-                  <li class="list-group-item"><i class="mdi mdi-unicorn"></i></li>
-                  <li class="list-group-item"><i class="mdi mdi-unicorn"></i></li>
-                  <li class="list-group-item"><i class="mdi mdi-unicorn"></i></li>
-                  <li class="list-group-item"><i class="mdi mdi-unicorn"></i></li>
-                </ul>
+          <form class="opacity-25 form-lt-color mx-3">
+            <div class="m-3">
+              <h2 class="title-font">Sign up today!</h2>
+              <div class="my-3">
+                <input type="email" class="form-control" aria-describedby="Name" placeholder="Name">
               </div>
-              <div class="col-11">
-                <div class="card-body">
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Wrench</li>
-                    <li class="list-group-item">Car</li>
-                    <li class="list-group-item">Phone</li>
-                    <li class="list-group-item">Bubbles</li>
-                    <li class="list-group-item">Sprinkls</li>
-                  </ul>
+              <div class="mb-3">
+                <input type="CreatureType" class="form-control" aria-describedby="CreatureType"
+                  placeholder="CreatureType">
+              </div>
+
+
+              <div style="display: inline-flex">
+                <div class="form-group">
+                  <input type="MagicType" class="form-control" aria-describedby="MagicType" placeholder="MagicType">
+                </div>
+                <span class="p-2"></span>
+                <div class="form-group">
+                  <input type="CutieMark" class="form-control" aria-describedby="CutieMark" placeholder="CutieMark">
                 </div>
               </div>
             </div>
+            <div class="form-group px-3">
+              <label for="exampleFormControlTextarea1"></label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+            </div>
+            <div class="form-check m-3">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">By checking this box I agree to live by the rules of
+                Harmony.</label>
+            </div>
+            <div class="mb-3 p-3">
+              <button type="submit" class="btn btn-primary border-0">Submit</button>
+            </div>
+          </form>
+        </div>
+
+
+        <!--Text Over Banner-->
+
+
+        <div class="col-8 d-none d-sm-block">
+          <div class="line-left mx-5">
+
+            <div class="mx-2">
+              <h2>Impsom Lorem ipsum, sit amet consectetur.</h2>
+              <p>Excepturi corporis,
+                sequi, at, ea vitae accusamus autem saepe magnam fuga numquam blanditiis cum? Est omnis dignissimos
+                accusamus
+                nihil, molestiae hic assumenda? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum
+                accusamus odit repellendus deserunt nemo, veniam laborum. Corporis distinctio aperiam quod quasi velit
+                tempore! Earum sapiente assumenda natus molestias at alias.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Floating-Box-->
+
+
+
+      <!--Text-Block-->
+
+      <div class="container-fluid main-bg-color">
+        <div class="row">
+          <div class="col-4 my-4 p-3">
+            <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit?
+            </h2>
+            <h4 class="body-font">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, enim atque impedit
+              illo perspiciatis porro. Sequi, repellendus reprehenderit aliquam nisi, est facilis vitae temporibus
+              quaerat libero non tenetur maiores ex? </h4>
           </div>
 
+          <!--Blank-Space-->
+          <div class="col-8">
+            <div class="float-card card mb-3">
+              <div class="row g-0">
+                <div class="col-md-1 py-3">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><i class="mdi mdi-book-open-page-variant"></i></li>
+                    <li class="list-group-item"><i class="mdi mdi-food-apple-outline"></i></li>
+                    <li class="list-group-item"><i class="mdi mdi-flower"></i></li>
+                    <li class="list-group-item"><i class="mdi mdi-diamond-stone"></i></li>
+                    <li class="list-group-item"><i class="mdi mdi-balloon"></i></li>
+                  </ul>
+                </div>
+                <div class="col-11">
+                  <div class="card-body">
+                    <ul class="list-group list-group-flush title-text">
+                      <li class="list-group-item">Elements of Harmony Guidebook</li>
+                      <li class="list-group-item">Applejack's Philosophy to Honesty</li>
+                      <li class="list-group-item">Fluttershy's Secret to Kindness</li>
+                      <li class="list-group-item">Rarity's Generosity Class</li>
+                      <li class="list-group-item">Pinkie Pie's Make 'em Laugh Class</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
 
+
+
+          </div>
         </div>
       </div>
     </div>
-    </div>
 
 
 
@@ -124,16 +198,28 @@
 
 
 
-    <!---Magic and Friendship-->
+    <!---About School-->
 
     <div class="container-fluid">
       <div class="row">
         <div class="col-4">
-          <img class="ph-img" src="">
-
-
+          <img class=""
+            src="https://static.wikia.nocookie.net/mlp/images/f/f2/Exterior_view_of_the_School_of_Friendship_S8E1.png">
         </div>
-        <div class="col-8">
+
+
+        <div class="col-8 p-5 h-95">
+          <div class="my-4 p-3">
+            <h2> <i class="mdi mdi-shield-outline"></i> Princess Twilight's School of Magic is now, and forever will be,
+              accepting applications from magical and
+              non magical creatures of ANY kind.
+            </h2>
+            <h4 class="body-font">After much deliberation and many attempts to come to agreement with Chancellor
+              Neighsay, the School of
+              Friendship has made the decision to leave the umbrella of the Equestria Education Association. Twilight's
+              School of Friendship is now an independent institution teaching the principles of harmony which Princess
+              Twilight believes should be accessible to anypony and anycreature alike.</h4>
+          </div>
 
         </div>
 
@@ -144,7 +230,7 @@
         <!--Trio Row 5-->
 
 
-        <div class="container-fluid">
+        <div class="container-fluid light-bg-color">
           <div class="row justify-content-center p-2" id="Realms">
 
             <div class="col-2 p-4">
@@ -156,8 +242,9 @@
             </div>
             <div class="col-5 p-4 ">
               <div class=" text-center">
-                <img class="img-fluid rounded shadow-sm img-center-square" src="/assets/images/Zecorahut.png" alt=""
-                  srcset="">
+                <img class="img-fluid rounded shadow-sm img-center-square"
+                  src="https://static.wikia.nocookie.net/mlp/images/f/f2/Exterior_view_of_the_School_of_Friendship_S8E1.png"
+                  alt="" srcset="">
                 <p>Icon</p>
                 <div class="">Batwo</div>
               </div>
@@ -177,7 +264,7 @@
         <!--Footer-->
 
         <div class="container-fluid">
-          <div class="row">
+          <div class="row main-bg-color">
             <div class="txt-bg"></div>
           </div>
         </div>
