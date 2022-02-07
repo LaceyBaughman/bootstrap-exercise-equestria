@@ -1,4 +1,5 @@
 
+
 .main-bg-color {
   background-color: #04a9b9;
 }
@@ -7,43 +8,23 @@
   background-color: hsl(168, 46%, 79%);
 }
 
-h1 { 
-  font-family: 'Londrina Solid', cursive;
-  text-align: left;
-  color: #086b74;
-}
-
 h2 {
   font-family: 'Londrina Solid', cursive;
+  
   text-align: left;
-  color: #613863;
-
+  color: #4f4064;
   }
-h3 {  
-  font-family: 'Londrina Solid', cursive;
-  font-family: 'Pragati Narrow', sans-serif;
-  color:  #13808a;
-}
 
 h4 {
   font-family: 'Londrina Solid', cursive;
   font-family: 'Pragati Narrow', sans-serif;
-  color: #b7edf1
-  
 }
 
 .body-text {
   font-family: 'Londrina Solid', cursive;
   font-family: 'Pragati Narrow', sans-serif;
-  color: #74b5bb;
+  color: #483149;
 }
-
-.subtle-text {
-  color: #9687aa;
-  font-family: 'Londrina Solid', cursive;
-  font-size: large;
-  text-align: left;
-  }
 
 .nav-img {
   height: 50px;
@@ -65,13 +46,14 @@ form {
 }
 
 .line-left {
-  border-left: 10px solid #13808a;
+  border-left: 10px solid #4f4064;
 }
 
 
 .btn-primary {
   padding: 10px 20px;
-  background-color: #613863;
+  background-color: #ffcfd2;
+  outline-color: #f18590;
 }
 
 
@@ -82,28 +64,23 @@ form {
   height: 500px;
   }
 
-.icon {
-  color: #613863;
-  font-size: 1.5em;
-}
-
-.big-icon {
-    color: #13808a;
-    font-size: 2em;
-  }
-
 
 .float-card {
-  width: 600px; 
-  background-color: hsl(168, 46%, 79%);
+  min-width: 300px;
   box-shadow: 0px 5px 0px #4a7d91;
-  position: absolute;
-  transform: translateY(20%) translateX(120%);
   padding: 1em;
+  transform: translateY(40%);
+}
+
+
+.subtle-title {
+color: #9687aa;
+font-family: 'Londrina Solid', cursive;
+font-size: large;
+text-align: left;
 }
 
 .card-center {
-  position: absolute;
   width: 376px;
   height: 324px;
 }
@@ -111,17 +88,16 @@ form {
 .more-button {
   margin-left: 60%;
   padding: 10px 20px;
-  outline-color: #086b74;
-  background-color: hsl(168, 46%, 79%);
-  color: #086b74;
+  outline-color: #f18590;
+  background-color: #f18590;
+  color: rgb(245, 235, 243);
 }
 
 .small-card {
   background-color: rgb(245, 235, 243);
   padding: 3em;
-  margin: 3em;
-  min-width: 300px;
-  min-height: 225px;
+  width: 300px;
+  height: 225px;
   text-align: center;
   font-size: medium;
   border-radius: 3%;
@@ -130,18 +106,18 @@ form {
 .medium-card {
   background-color: rgb(245, 235, 243);
   padding: 3em;
-  margin: 2em;
-  min-width: 350px;
-  min-height: 300px;
+  width: 350px;
+  height: 300px;
   text-align: center;
   font-size: medium;
   border-radius: 3%;
 }
 
 
+
 .line-bottom {
   align-content: center;
-  border-bottom: 5px solid #4a7d91;
+  border-bottom: 5px solid #4f4064;
   border-width: 5px;
 }
 
@@ -151,37 +127,36 @@ form {
 }
 
 .first-footer-bg {
+  background-color: #04a9b9;
   height: 300px;
 }
 
+
 .sec-footer-bg {
   background-color: rgb(245, 235, 243);
-  height: 100px;
+  height: 200px;
 }
 
-.footer-text {
+.footer-width {
   width: 500px;
 }
 
-.long-line {
-  width: 800px;
-  border-bottom: solid #13808a;
-  border-width: 5px;
+hr {
+  margin-top: 100px;
+  padding: 5px;
+  text-align: center;
+  width: 100%;
+  color: solid #4f4064;
+  
 }
 
 @media screen and (max-width: 768px) {
 
-  .medium-card {
-    background-color: rgb(245, 235, 243);
-    padding: 3em;
-    margin: 2em;
-    min-width: 350px;
-    min-height: 300px;
-    text-align: center;
-    font-size: medium;
-    border-radius: 3%;
-    -ms-flex-order: 1;
-    }
-  
+  .float-card {
+    min-width: 300px;
+    box-shadow: 0px 5px 0px #4a7d91;
+    transform: translateY(0%);
+    padding: 1em;
+  }
 
 }
