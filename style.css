@@ -4,7 +4,7 @@
 }
 
 .light-bg-color {
-  background-color: hsl(168, 46%, 79%)e9;
+  background-color: hsl(168, 46%, 79%);
 }
 
 h2 {
@@ -14,21 +14,20 @@ h2 {
   color: #4f4064;
   }
 
-
 h4 {
   font-family: 'Londrina Solid', cursive;
   font-family: 'Pragati Narrow', sans-serif;
 }
 
+.body-text {
+  font-family: 'Londrina Solid', cursive;
+  font-family: 'Pragati Narrow', sans-serif;
+  color: #483149;
+}
 
 .nav-img {
   height: 50px;
   width: 50px;
-}
-
-.card-heaader {
-  background-color: #98F5E1;
-  opacity: 90%;
 }
 
 form {
@@ -50,29 +49,27 @@ form {
 }
 
 
-
 .btn-primary {
   padding: 10px 20px;
   background-color: #ffcfd2;
-}
-
-.btn-outline-primary {
   outline-color: #f18590;
 }
 
 
 .school-img {
-  object-position: center;
-  object-fit: cover;
+  margin: 2em;
+  object-fit: fill;
+  width: 340px;
+  height: 500px;
   }
 
 
-
-
 .float-card {
-  max-width: 540px; 
+  width: 600px; 
   box-shadow: 0px 5px 0px #4a7d91;
-  transform: translateY(50%) translateX(50%);
+  position: absolute;
+  transform: translateY(40%) translateX(120%);
+  padding: 1em;
 }
 
 
@@ -83,7 +80,78 @@ font-size: large;
 text-align: left;
 }
 
+.card-center {
+  position: absolute;
+  width: 376px;
+  height: 324px;
+}
+
+.more-button {
+  margin-left: 60%;
+  padding: 10px 20px;
+  outline-color: #f18590;
+  background-color: #f18590;
+  color: rgb(245, 235, 243);
+}
+
+.small-card {
+  background-color: rgb(245, 235, 243);
+  padding: 3em;
+  margin: 3em;
+  min-width: 300px;
+  min-height: 225px;
+  text-align: center;
+  font-size: medium;
+  border-radius: 3%;
+}
+
+.medium-card {
+  background-color: rgb(245, 235, 243);
+  padding: 3em;
+  margin: 2em;
+  min-width: 350px;
+  min-height: 300px;
+  text-align: center;
+  font-size: medium;
+  border-radius: 3%;
+}
+
+
+
+.line-bottom {
+  align-content: center;
+  border-bottom: 5px solid #4f4064;
+  border-width: 5px;
+}
+
+.mdi-star-circle {
+  width: 100px;
+  height: 100px;
+}
+
+.first-footer-bg {
+  background-color: #04a9b9;
+  height: 300px;
+}
+
+.sec-footer-bg {
+  background-color: rgb(245, 235, 243);
+  height: 100px;
+}
+
+.footer-text {
+  width: 500px;
+}
+
+.long-line {
+  align-self: center;
+  width: 800px;
+  border-bottom: solid #4f4064;
+  border-width: 5px;
+}
 
 @media screen and (max-width: 768px) {
+
+
 
 }
