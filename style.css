@@ -7,23 +7,43 @@
   background-color: hsl(168, 46%, 79%);
 }
 
+h1 { 
+  font-family: 'Londrina Solid', cursive;
+  text-align: left;
+  color: #086b74;
+}
+
 h2 {
   font-family: 'Londrina Solid', cursive;
-  
   text-align: left;
-  color: #4f4064;
+  color: #613863;
+
   }
+h3 {  
+  font-family: 'Londrina Solid', cursive;
+  font-family: 'Pragati Narrow', sans-serif;
+  color:  #13808a;
+}
 
 h4 {
   font-family: 'Londrina Solid', cursive;
   font-family: 'Pragati Narrow', sans-serif;
+  color: #b7edf1
+  
 }
 
 .body-text {
   font-family: 'Londrina Solid', cursive;
   font-family: 'Pragati Narrow', sans-serif;
-  color: #483149;
+  color: #74b5bb;
 }
+
+.subtle-text {
+  color: #9687aa;
+  font-family: 'Londrina Solid', cursive;
+  font-size: large;
+  text-align: left;
+  }
 
 .nav-img {
   height: 50px;
@@ -45,14 +65,13 @@ form {
 }
 
 .line-left {
-  border-left: 10px solid #4f4064;
+  border-left: 10px solid #13808a;
 }
 
 
 .btn-primary {
   padding: 10px 20px;
-  background-color: #ffcfd2;
-  outline-color: #f18590;
+  background-color: #613863;
 }
 
 
@@ -63,21 +82,24 @@ form {
   height: 500px;
   }
 
+.icon {
+  color: #613863;
+  font-size: 1.5em;
+}
+
+.big-icon {
+    color: #13808a;
+    font-size: 2em;
+  }
+
 
 .float-card {
   width: 600px; 
+  background-color: hsl(168, 46%, 79%);
   box-shadow: 0px 5px 0px #4a7d91;
   position: absolute;
-  transform: translateY(40%) translateX(120%);
+  transform: translateY(20%) translateX(120%);
   padding: 1em;
-}
-
-
-.subtle-title {
-color: #9687aa;
-font-family: 'Londrina Solid', cursive;
-font-size: large;
-text-align: left;
 }
 
 .card-center {
@@ -89,9 +111,9 @@ text-align: left;
 .more-button {
   margin-left: 60%;
   padding: 10px 20px;
-  outline-color: #f18590;
-  background-color: #f18590;
-  color: rgb(245, 235, 243);
+  outline-color: #086b74;
+  background-color: hsl(168, 46%, 79%);
+  color: #086b74;
 }
 
 .small-card {
@@ -117,10 +139,9 @@ text-align: left;
 }
 
 
-
 .line-bottom {
   align-content: center;
-  border-bottom: 5px solid #4f4064;
+  border-bottom: 5px solid #4a7d91;
   border-width: 5px;
 }
 
@@ -130,7 +151,6 @@ text-align: left;
 }
 
 .first-footer-bg {
-  background-color: #04a9b9;
   height: 300px;
 }
 
@@ -144,14 +164,24 @@ text-align: left;
 }
 
 .long-line {
-  align-self: center;
   width: 800px;
-  border-bottom: solid #4f4064;
+  border-bottom: solid #13808a;
   border-width: 5px;
 }
 
 @media screen and (max-width: 768px) {
 
-
+  .medium-card {
+    background-color: rgb(245, 235, 243);
+    padding: 3em;
+    margin: 2em;
+    min-width: 350px;
+    min-height: 300px;
+    text-align: center;
+    font-size: medium;
+    border-radius: 3%;
+    -ms-flex-order: 1;
+    }
+  
 
 }
